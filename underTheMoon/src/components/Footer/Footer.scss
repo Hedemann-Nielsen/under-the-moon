@@ -1,0 +1,12 @@
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 200px;
+}
+.Form {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
+}
