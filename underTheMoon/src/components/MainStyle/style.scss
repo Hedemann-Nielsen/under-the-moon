@@ -1,0 +1,44 @@
+.mainWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  .head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    a {
+      text-decoration: none;
+      color: black;
+      padding: 7px 10px;
+      border: solid 1px black;
+      width: 110px;
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+  .buttonWrapper {
+    display: flex;
+    .SmallStyle {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      a {
+        text-decoration: none;
+        color: white;
+        padding: 7px 10px;
+        border: solid 1px white;
+        width: 110px;
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

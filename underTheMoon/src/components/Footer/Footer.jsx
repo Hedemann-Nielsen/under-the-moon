@@ -28,17 +28,19 @@ export const Footer = () => {
       <div className="MellemFooter">
         <h3>QUICK LINKS</h3>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>Hjem</li>
+          <li>Om os</li>
+          <li>Prisliste</li>
+          <li>Booking</li>
+          <li>Newsletter</li>
+          <li>Kontakt</li>
         </ul>
         <h3>FOLLOW US</h3>
-        <i></i>
-        <i></i>
-        <i></i>
+        <div className="cirkel">
+          <i></i>
+          <i></i>
+          <i></i>
+        </div>
       </div>
       <div className="LastFooter">
         <h3>FIND US</h3>
