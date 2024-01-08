@@ -12,7 +12,7 @@ export const Header = () => {
     return(
     <header className={style.headerImg}>
         <Navigation data={arrNavigation}></Navigation>
-        <HeaderImgSection title="under the moon" undertitle="hairstylist og frisør"></HeaderImgSection>
+        <HeaderImgSection title="under the moon" undertitle="hairstylist og frisør" aboutUTM="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid optio ex tenetur ad. Dolorum distinctio ratione, minus ipsam perferendis, eveniet cupiditate praesentium quam quasi deserunt, corrupti eaque doloremque inventore dolor."></HeaderImgSection>
     
     </header>
     

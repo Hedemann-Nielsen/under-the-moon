@@ -1,15 +1,48 @@
 .title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	color: #fff;
 	text-shadow: 8px 4px 7px rgba(0, 0, 0, 0.25);
-	font-family: Gilda Display;
+	font-family: "Gilda Display", serif;
 	font-size: 128px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
+	text-transform: capitalize;
+	width: 100%;
+	text-align: center;
 }
 .frame {
+	position: relative;
+	top: calc(100% - 253px);
+
+	background: rgba(0, 0, 0, 0.52);
+	width: 100%;
+	height: 253px;
 	h3 {
+		color: #fff;
+		padding-top: 40px;
+		text-transform: uppercase;
+		text-align: center;
+		font-family: "Gilda Display", serif;
+		font-size: 32px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
 	}
 	p {
+		position: absolute;
+		top: 40%;
+		left: 50%;
+		transform: translateX(-50%);
+		color: #fff;
+		font-family: Gilda Display;
+		font-size: 14px;
+		width: 450px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
 	}
 }
