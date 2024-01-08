@@ -21,9 +21,9 @@ export const Style = () => {
         </a>
       </article>
       <div className="buttonWrapper">
-        <article className="SmallStyle">
+        <article className="SmallStyle first">
           <h3>One 2 One</h3>
-          <p>
+          <p className="text">
             Lorem ipsum dolor sit amet consectetur. Nunc pellentesque senectus
             aliquam ipsum. Sed mauris posuere odio nisl in. Massa vitae faucibus
             imperdiet facilisi pulvinar maecenas platea purus pulvinar. Lacinia
@@ -33,9 +33,9 @@ export const Style = () => {
             <p>BOOK TID</p>
           </a>
         </article>
-        <article className="SmallStyle">
+        <article className="SmallStyle second">
           <h3>Loyalty Free</h3>
-          <p>
+          <p className="text">
             Lorem ipsum dolor sit amet consectetur. Nunc pellentesque senectus
             aliquam ipsum. Sed mauris posuere odio nisl in. Massa vitae faucibus
             imperdiet facilisi pulvinar maecenas platea purus pulvinar. Lacinia
