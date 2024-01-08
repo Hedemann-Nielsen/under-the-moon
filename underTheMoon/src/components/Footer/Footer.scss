@@ -1,0 +1,69 @@
+Footer {
+  background: #262626;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 45px;
+  color: #d9d9d9;
+}
+
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 200px;
+  color: white;
+  font-family: "Gilda Display", serif;
+  margin-top: 30px;
+}
+.Form {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
+}
+.Button {
+  width: 100px;
+  border: 1px solid #fff;
+  background: #1f1f1f;
+  padding: 3px 10px;
+  color: white;
+  font-family: "Oranienbaum", serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.input {
+  width: 381px;
+  background: #d9d9d9;
+  height: 27.727px;
+}
+.MellemFooter {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: start;
+  ul li {
+    list-style-type: none;
+    margin-left: 10px;
+  }
+  .cirkel {
+    display: flex;
+    gap: 5px;
+    margin-left: 10px;
+    i {
+      width: 46px;
+      height: 46px;
+      background-color: #d9d9d9;
+      border-radius: 25px;
+    }
+  }
+}
+.LastFooter {
+  margin-right: 50px;
+
+  p {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}
