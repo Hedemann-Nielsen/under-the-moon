@@ -6,12 +6,22 @@ export const Footer = () => {
       <div className="Wrapper">
         <h3>SUBSCRIBE TO NEWSLETTER</h3>
         <form className="Form" action="">
-          <label htmlFor="">
-            <input type="text" name="name" id="name" placeholder="Name" />
-          </label>
-          <label htmlFor="">
-            <input type="email" name="email" id="email" placeholder="Email" />
-          </label>
+          <input
+            className="input"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Name"
+          />
+
+          <input
+            className="input"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+          />
+
           <button className="Button">sign up</button>
         </form>
       </div>
