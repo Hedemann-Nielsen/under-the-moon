@@ -1,0 +1,14 @@
+/* Gallery.module.scss */
+.galleri {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 13px;
+	justify-content: space-between;
+	max-width: 100vw;
+	padding: 18px;
+}
+
+img {
+	width: 100%;
+}
